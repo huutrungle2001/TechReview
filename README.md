@@ -12,4 +12,4 @@
 
 ## Project describe
 - This is an assignment for class Software Engineering
-- Our project is to build a website to review technology product so that low-tech people can easily choose a suitable product for their demand.
+- Our project is to build a website to review technology product so that low-tech people can easily choose suitable products for their demand.
