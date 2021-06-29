@@ -1,0 +1,46 @@
+<template>
+  <div class="dienThoaiNoiBat">
+    <div class="title">Laptop Nổi Bật</div>
+    <div class="listCard">
+      <card v-for="(item, index) in listLaptop" :key="index" :info="item" />
+    </div>
+  </div>
+</template>
+
+<script lang='ts'>
+import { Options, Vue } from "vue-property-decorator";
+import Card from "@/components/Card.vue";
+import { DeviceModule } from "@/store/devicemodule.ts";
+@Options({
+  name: "laptopNoiBat",
+  components: {
+    Card,
+  },
+})
+export default class extends Vue {
+  get listLaptop() {
+    var list = [];
+    for (let i = 0; i < DeviceModule.devices.length; i++) {
+      if (DeviceModule.devices[i].type == "Laptop") {
+        list.push(DeviceModule.devices[i]);
+      }
+    }
+    return list;
+  }
+}
+</script>
+
+<style scoped lang="scss">
+.title {
+  text-align: left;
+  padding: 10px;
+  background: #fed100;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.listCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+</style>
