@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\TechReview\\TechReview.csproj": {}
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\techreview\\TechReview\\TechReview.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\TechReview\\TechReview.csproj": {
+    "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\techreview\\TechReview\\TechReview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\TechReview\\TechReview.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\techreview\\TechReview\\TechReview.csproj",
         "projectName": "TechReview",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\TechReview\\TechReview.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\techreview\\TechReview\\TechReview.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\TechReview\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Code\\TechReview\\techreview\\TechReview\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
